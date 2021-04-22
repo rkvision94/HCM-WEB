@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.spring</groupId>
-  <artifactId>rkvision1</artifactId>
+  <artifactId>rohit</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>rkvision1</name>
+  <name>rohit</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,11 +15,24 @@
   </properties>
 
   <dependencies>
+  
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.3</version>
+</dependency>
+  
+  
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>3.8.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  
+
+  
 </project>
